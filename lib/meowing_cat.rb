@@ -17,5 +17,7 @@ class Cat
 end
 
 pussy_cat = Cat.new("Bob")
+puts pussy_cat.name
 
 pussy_cat.name = "Tom"
+puts pussy_cat.name
