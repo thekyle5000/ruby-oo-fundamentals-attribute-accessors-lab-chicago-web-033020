@@ -15,3 +15,5 @@ class Cat
   end
 
 end
+
+pussy_cat = Cat.new("Bob")
