@@ -17,3 +17,4 @@ class Cat
 end
 
 pussy_cat = Cat.new("Bob")
+binding.pry
