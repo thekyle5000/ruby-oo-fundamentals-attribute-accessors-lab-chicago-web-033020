@@ -4,7 +4,8 @@ require 'pry'
 class Cat
   
   def initialize(name)
-  @name = name
+   @name = name
+   puts "sup bitch"
   end
   
   attr_accessor :name
