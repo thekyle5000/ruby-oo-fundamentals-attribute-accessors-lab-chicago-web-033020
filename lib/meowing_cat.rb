@@ -9,17 +9,6 @@ class Cat
   end
   
   attr_accessor :name
-  
-  
-   def name #getter method
-    @name
-  end
-
-  def name=(name) #setter method
-    @name = name
-  end
-end
-
 
   def meow
     puts "meow!"
