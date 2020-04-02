@@ -2,6 +2,10 @@
 require 'pry'
 
 class Cat
+  def initialize(x, y)
+  @x = x     @y = y 
+  
+end
   
   attr_accessor :name
   
@@ -12,3 +16,7 @@ class Cat
   
 end
 
+def initialize(x, y)
+  @x = x     @y = y 
+  
+end
